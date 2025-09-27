@@ -1,0 +1,56 @@
+body {
+    background-color: #000000;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+/*main wrapper*/
+.wrapper {
+    background-color: #1e1e1e;  /* dark background */
+    width: 300px;                 /* fixed width */
+    max-width: 350px;             /* maximum width */
+    padding: 20px;               /* inner spacing */
+    border-radius: 12px;        /* rounded corners */
+}
+header {
+    text-align: center;       /* center header content*/
+}
+header img {
+    width: 100px; /*size of the image*/
+    height: 100px;
+    border-radius: 50px; /* makes the image a cirlce */
+    margin-bottom: 10px;  /* space between image and name */
+}
+header h1 {
+    font-size: 24px;
+    margin: 5px 0;
+    color: white;
+}
+header p {
+    color: palegoldenrod;
+    margin-bottom: 20px;    /*spacing below paragraph */
+}
+blockquote {
+    display:inline-block;
+    white-space: nowrap;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.box {
+    background-color: rgba(128, 128, 128, 0.324);   /* gray color with some transparency */
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center; 
+    margin-bottom: 10px;   /* spacing between boxes */
+    color:#ffffff;
+    cursor: pointer;      /* indicates clickable */
+}
+
+
